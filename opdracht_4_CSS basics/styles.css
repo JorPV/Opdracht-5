@@ -1,0 +1,233 @@
+body{
+        background-color: #deeced;
+        padding: 2.2em; 
+        line-height: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color:#fd9707;
+    padding-bottom: 4em;
+    margin: 12px;
+    
+}
+
+.black-border {
+    padding: 15px;
+    padding-bottom: 1.2em;
+    color: #e57f5b;
+    font-family: sans-serif;
+
+}
+
+.para1{
+    
+    font-family:'Courier New', Courier, monospace;
+    padding-left:2em;
+    font-size: 16px;
+    color:#42615c;
+    list-style-image: url('images/check.jpg')
+}
+
+.trying-CSS{
+    animation-name: myanimation;
+    color: deeppink;
+    position:relative; 
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    padding:10px;
+    border: right 6px;
+}
+
+@keyframes myanimation {
+    from {left:0px;}
+    to {left:400px;}
+  }
+
+.index-footer{
+    border: 2px #ccc solid;
+    padding:1em;
+    margin:15px; 
+    margin-top:3em;
+}
+
+.about-me{
+    font-weight: bold;
+    font-size:18px;
+    color:darkorchid;
+    line-height:1.8em;
+    padding-top: 6em;
+}
+
+p{
+    font-family: cursive;
+    line-height:1.8em;
+    padding-left: 15px;
+}
+
+span{
+    margin:100px;
+}
+.button {
+    background-color:#78c5a3;
+	color: #fff;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.button:hover{ 
+    background:yellowgreen;
+}
+
+#aboutme{
+    font-family: 'Franklin Gothic Medium';
+    text-align:right; 
+    text-decoration: none;
+}
+
+.para2{
+    color: #42615c;
+    padding-left: 2em;
+}
+
+.list ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 1em 11em 4em 11em;
+}
+
+.list li{
+    float: left;
+    overflow: hidden;
+    background-color: #333;
+    border-right:1px solid #bbb;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    margin:auto;
+    max-width: fit-content;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: hotpink;
+    text-decoration:none;
+}
+  
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+
+#img-index {
+    border: 3px solid rebeccapurple;
+    animation-name: img-animation;
+    position: relative;
+    animation-duration:11s;
+    animation-iteration-count:infinite; 
+}
+@keyframes img-animation {
+    from {left: 15px;}
+    to {left: 350px;}
+  }
+
+
+#img-index:hover{
+    border:3px solid #8a9ea1;
+}
+
+.img-about{
+    border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;  
+    animation-name:rotate; 
+    animation-duration: 20s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+}
+}
+.img-about:hover{
+    border:5px solid #9f9745; 
+}
+
+h3{ 
+    color:firebrick; 
+    text-align:center; 
+}
+#backhome{
+    text-decoration: none;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color:#78c5a3;
+	font-weight: lighter;
+	padding: 10px;
+	border-radius: 8px;
+    border-bottom-color: rosybrown;
+    border-bottom-style: solid;
+}
+
+.footer{
+    text-align: right;
+}
+
+.footer strong {
+            color: dodgerblue; 
+            font-family: calibri;
+            font-size: 20px;;
+}
+
+.about-footer{
+    margin:auto;
+    max-width: fit-content;
+    float:none;
+}
+
+.header{ 
+    border: 3px dotted #fff; 
+    margin: 20px;
+    padding: 10px 15px 20px 15px; 
+}
+
+.main-box{ 
+    border: 2px solid #ccc; 
+    margin:20px; 
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-bottom: 3em;
+}
